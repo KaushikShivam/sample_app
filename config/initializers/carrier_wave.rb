@@ -10,7 +10,3 @@ if Rails.env.production?
     config.fog_provider = 'fog/aws'
   end
 end
-
-# heroku config:set S3_ACCESS_KEY="AKIA35CGNHAN7O25T3K6"
-# heroku config:set S3_SECRET_KEY="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"
-# heroku config:set S3_BUCKET="us-east-2"
